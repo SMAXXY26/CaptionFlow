@@ -1,5 +1,5 @@
 # CaptionFlow
-CaptionFlow is a custom trained Vision Language Model that generates a caption based on the image provided. It is a transformer based model
+CaptionFlow is a custom trained Language Model that generates a caption based on the image provided. It is a transformer based model
 
 # Contents
 1. Dataset
