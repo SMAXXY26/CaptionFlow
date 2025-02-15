@@ -22,4 +22,4 @@ The model has been trained on the COCO 2017 dataset. [Click Here to go to Datase
 - Adam was used as optimizer with learning rate of 0.0001
 
 # 4. Testing
-From the predicted captions we can see that the model does good enough in some images. More accuracy and relevant output can be attained using complex model and more data
+From the predicted captions we can see that the model does good enough in some images. More accuracy and relevant output can be attained by training on more data or by fine tuning pre-trained models
