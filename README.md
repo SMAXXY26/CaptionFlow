@@ -11,14 +11,14 @@ CaptionFlow is a custom trained Language Model that generates a caption based on
 The model has been trained on the COCO 2017 dataset. [Click Here to go to Dataset](https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset)
 
 # 2. Model architecture
-- CNN Encoder: Used InceptionV3 to extract image features.
+- CNN Encoder: Fine tuned InceptionV3 with imagenet weights to extract image features.
 - Transformer Encoder Layer: Implemented a Transformer encoder layer.
 - Transformer Decoder Layer: Implemented a Transformer decoder layer.
 - ImageCaptioningModel: Combined CNN and Transformer components, with methods for training and evaluation.
 
 # 3. Training
 - The model was trained for 10 epochs with a batch size of 32.
-- Loss function used was BinaryCrossentropy
+- Loss function used was SparseCategoricalCrossentropy
 - Adam was used as optimizer with learning rate of 0.0001
 
 # 4. Testing
